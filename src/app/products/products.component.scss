@@ -1,0 +1,38 @@
+.owl-theme .owl-dots .owl-dot {
+    display: inline-block;
+    zoom: 1;
+    width: 10px;
+    height: 10px;
+    position: relative;
+    margin: 5px;
+    
+    background: #FB8A22;
+    border-radius: 50%;
+    opacity: 0.5;
+    transition: opacity 0.3s ease;
+
+}
+
+.owl-nav {
+    display: none;
+}
+
+.owl-theme .owl-dots .owl-dot.active {
+    opacity: 1;
+    /* Full opacity for active dot */
+}
+
+/* Custom styles for navigation arrows */
+.owl-nav button {
+    background-color: #FB8A22;
+    border: none;
+    color: white;
+    padding: 10px;
+
+    border-radius: 50%;
+}
+
+.owl-nav button:hover {
+    background-color: #b18967;
+    /* Change color on hover */
+}

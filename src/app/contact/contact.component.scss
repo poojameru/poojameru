@@ -1,0 +1,80 @@
+.ml{
+    margin-left: 10px;
+}
+.vr-line {
+    width: 1px;              /* Thickness of the vertical line */
+    height: 320px;   
+    border: 1px solid rgb(194, 190, 190);
+    position: absolute;  
+    top: 13px;
+        /* Height of the vertical line */
+    background-color: rgb(194, 190, 190); /* Color of the vertical line */
+}
+.btn{
+    
+    text-transform: uppercase;
+    border-radius: 25px;
+    border: none;
+    font-weight: 400;
+    letter-spacing: 1px;
+    background-color:#FB8A22;
+    height: 40px;
+   color: white;
+    width: 120px;
+    position: absolute;
+    bottom: -21px;
+    right: 30px;
+}
+.btn:hover{
+    color: black;
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+}
+.img1{
+    position: absolute;
+    top:-180px;
+    left: 60px;
+    width: 850px;
+    transform: rotate(100deg);
+    z-index: -1;
+}
+.img2{
+    position: absolute;
+    top:-10px;
+    left: -410px;
+    width: 450px;
+    transform: rotate(-180deg);
+    z-index: -1;
+}
+.img4{
+    position: absolute;
+    top:250px;
+    left: -250px;
+    width: 450px;
+    transform: rotate(90deg);
+    z-index: -1;
+}
+.img1{
+    position: absolute;
+    top:-410px;
+    left: 500px;
+    width: 350px;
+    transform: rotate(270deg);
+    z-index: -1;
+}
+.img3{
+    position: absolute;
+    bottom:135px;
+    right: -337px;
+    width: 350px;
+    transform: rotate(-10deg);
+    z-index: -2;
+}
+.main{
+   
+    position: relative;
+    background-color: white;
+    padding: 40px;
+    width: 40rem;
+    margin-top: 120px;
+}

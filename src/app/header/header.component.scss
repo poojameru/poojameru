@@ -1,0 +1,67 @@
+
+
+.a-h{
+    padding: 4.5px 10px;
+}
+.a-h:hover{
+   border-bottom: 3px solid #FB8A22;
+ font-weight: 700;
+ padding: 4.5px 10px;
+ color: black;
+}
+.btn-close {
+  position: relative;
+  left: 10px;
+ 
+}
+.home{
+ color: #FB8A22;
+ font-size: 1.4rem;
+}
+
+.pin{
+  text-decoration: none;
+  font-size: 0.8rem;
+  
+}
+.dropdown{
+  position: relative;
+  top: -26px;
+  left: 50px;
+  height: 2px;
+}
+hr{
+  height: 2px;
+
+  border: 1px solid gray;
+ 
+  box-shadow: 1px 1px 2px gray;
+}
+.imge-s{
+  width: 100%;
+}
+.blurred-container {
+  background: rgba(106, 224, 169, 0.301); /* Light transparent background */
+  backdrop-filter: blur(10px); /* Apply blur to the background */
+  padding: 20px;
+  border-radius: 10px;
+}
+.text{
+  font-size: 1.2rem;
+  color: rgb(82, 82, 82);
+}
+.btn2{
+  width: 140px;
+             height: 35px;
+             text-align: center;
+             border-radius: 50px;
+             background-color: #FB8A22;
+             color: white;
+             padding: 5px;
+             border: none;
+}
+.btn2:hover{
+  color: black;
+  background-color: white;
+  border: 1px solid black;
+}

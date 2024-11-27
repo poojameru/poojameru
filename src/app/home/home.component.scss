@@ -1,0 +1,95 @@
+
+
+.home-img {
+   position: relative;
+   width: 450px;
+   top: 50px;
+   height: 580px;
+}
+
+.img-main {
+   transform: rotate(-20deg);
+   position: relative;
+
+}
+
+.main-1 {
+   position: relative;
+   top: 70px;
+}
+
+.card-1 {
+   position: absolute;
+   bottom: 20px;
+   left: 115px;
+   box-shadow: 6px 6px 15px rgb(195, 190, 190);
+}
+
+.card-2 {
+   position: absolute;
+   bottom: 120px;
+   right: -130px;
+   box-shadow: 6px 6px 15px rgb(195, 190, 190);
+}
+
+.img1 {
+   width: 200px;
+   position: relative;
+   left: 1%;
+   -webkit-filter: drop-shadow(5px 5px 3px #797979);
+   filter: drop-shadow(8px 7px 6px 6px #797979);
+}
+
+.left-lemon {
+   position: absolute;
+   right: 0px;
+   transform: rotate(-180deg);
+   width: 250px;
+
+}
+
+.left-lemon2 {
+   position: absolute;
+   left: -90px;
+   top: 190px;
+   transform: rotate(-199deg);
+   width: 210px;
+
+}
+
+.main-2 {
+   position: relative;
+   top: 50px;
+}
+
+.right-lemon {
+   position: absolute;
+   width: 250px;
+   margin-top: -30px;
+   z-index: 2;
+}
+
+.menu-img {
+   position: relative;
+   z-index: 2;
+   top: 70px;
+   margin-right: 15px;
+   width: 299px;
+   -webkit-filter: drop-shadow(2px 7px 8px #797979);
+   filter: drop-shadow(12px 17px 8px 5px #797979);
+
+}
+
+.card_1 {
+   position: relative;
+}
+
+.card-menu1 {
+   position: relative;
+   z-index: 1;
+   top: -50px;
+   width: 18rem;
+   height: 270px;
+   border-radius: 37px;
+   box-shadow: 3px 3px 20px rgb(152, 145, 145);
+}
